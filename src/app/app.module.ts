@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import {NgxTributeModule} from 'ngx-tribute';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { ContenteditableModule } from '@ng-stack/contenteditable';
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
   imports: [
     BrowserModule,
       NgxTributeModule,
+      ContenteditableModule,
       FormsModule,
       ReactiveFormsModule
   ],

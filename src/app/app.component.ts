@@ -60,6 +60,10 @@ interface TributeValue {
         <h2>Using <code>menuContainer</code></h2>
         <input [ngxTribute]="options2" [menuContainer]="container">
         <div #container class="menu-container"></div>
+
+        <h2>Contenteditable example</h2>
+        <div contenteditable name="contenteditableValue" [(ngModel)]="contenteditableValue" [ngxTribute]="options"></div>
+        Value: {{contenteditableValue}}
     `,
     styleUrls: ['./app.component.css']
 })
@@ -98,6 +102,7 @@ export class AppComponent {
         control: ['']
     });
     customControl = this.fb.control('Initial state');
+    contenteditableValue: string;
 
     constructor(private fb: FormBuilder) {}
 }
