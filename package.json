@@ -25,8 +25,9 @@
     "@angular/router": "^6.1.0",
     "@ng-stack/contenteditable": "^1.0.1",
     "core-js": "^2.5.4",
+    "ngx-tribute": "^1.5.0",
     "rxjs": "^6.0.0",
-    "tributejs": "^3.3.5",
+    "tributejs": "^3.7.2",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
